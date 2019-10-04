@@ -1,0 +1,60 @@
+---
+title: ""
+output: 
+    html_document:
+        include:
+#            before_body: header.html
+            after_body: footer.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br>
+
+#### Peer-reviewed English journals:
+
+See also: [My Google Scholar Profile](https://scholar.google.com/citations?user=v61F98cAAAAJ&hl=en)
+
+`*`: Corresponding author; `#`: Students or postdocs in this lab.
+
+
+<ol reversed>
+<li>**Xing, D.`*`**, J. A. C. Bergeron, W. J. A. Volney, S. E. Macdonald, J. R. Spence, and F. He. 2019. Challenges in estimating forest biomass: use of allometric equations for three boreal species. __*Canadian Journal of Forest Research*__ (In press) [doi: 10.1139/cjfr-2019-0258](https://doi.org/10.1139/cjfr-2019-0258) </li>
+
+<li> **Xing, D.`*`** and F. He. 2019. Environmental filtering explains a U-shape latitudinal pattern in regional β-deviation for eastern North American trees. __*Ecology Letters*__ 22:284–291 [doi: 10.1111/ele.13188](https://doi.org/10.1111/ele.13188) </li>
+
+<li> **Xing, D.`*`**, S. E. Nielsen, S. E. Macdonald, J. R. Spence, and F. He. 2018. Survival and growth of residual trees in a variable retention harvest experiment in a boreal mixedwood forest. __*Forest Ecology and Management*__ 411:187–194. [doi: 10.1016/j.foreco.2018.01.026](https://doi.org/10.1016/j.foreco.2018.01.026) </li>
+
+<li> Lin, F., L. S. Comita, X. Wang, X. Bai, Z. Yuan, **D. Xing**, and Z. Hao`*`. 2014.The contribution of understory light availability and biotic neighborhood to seedling survival in secondary versus old-growth temperate forest. __*Plant Ecology*__ 215:795–807. [doi: 10.1007/s11258-014-0332-0](https://doi.org/10.1007/s11258-014-0332-0) </li>
+
+<li> Erickson, D. L.`*`, F. A. Jones, N. G. Swenson, N. Pei, N. A. Bourg, W. Chen, S. J. Davies, X. Ge, Z. Hao, R. W. Howe, C.-L. Huang, A. J. Larson, S. K. Y. Lum, J. A. Lutz, K. Ma, M. Meegaskumbura, X. Mi, J. D. Parker, I. Fang-Sun, S. J. Wright, A. T. Wolf, W. Ye, **D. Xing**, J. K. Zimmerman, and W. J. Kress. 2014. Comparative evolutionary diversity and phylogenetic structure across multiple forest dynamics plots: a mega-phylogeny approach. __*Frontiers in Genetics*__ 5:358. [doi: 10.3389/fgene.2014.00358](https://doi.org/10.3389/fgene.2014.00358) </li>
+
+<li> Bai X, T. Brenes-Arguedas, J. Ye, X. Wang, F. Lin, Z. Yuan, S. Shi, **D. Xing**, and Z. Hao`*`. 2014. Dynamics of Two Multi-Stemmed Understory Shrubs in Two Temperate Forests. __*PLoS ONE*__ 9(6): e98200 [doi: 10.1371/journal.pone.0098200](https://doi.org/10.1371/journal.pone.0098200) </li>
+
+<li> Ye, J.`*`, Z. Hao, X. Wang, X. Bai, **D. Xing**, and Z. Yuan. 2014. Local-scale drivers of multi-stemmed tree formation in Acer, in a temperate forest of Northeast China. __*Chinese Science Bulletin*__ 59:320–325. [doi: 10.1007/s11434-013-0013-8](https://doi.org/10.1007/s11434-013-0013-8) </li>
+
+<li> **Xing, D.**, N. G. Swenson, M. D. Weiser, and Z. Hao`*`. 2014. Determinants of species abundance for eastern North American trees. __*Global Ecology and Biogeography*__ 23:903–911. [doi: 10.1111/geb.12167](https://doi.org/10.1111/geb.12167) </li>
+
+<li> Wang, X.`*`, N. G. Swenson, T. Wiegand, A. Wolf, R. Howe, F. Lin, J. Ye, Z. Yuan, S. Shi, X. Bai, **D. Xing**, and Z. Hao. 2013. Phylogenetic and functional diversity area relationships in two temperate forests. __*Ecography*__ 36:883–893. [doi: 10.1111/j.1600-0587.2012.00011.x](https://doi.org/10.1111/j.1600-0587.2012.00011.x) </li>
+
+<li> Bai, X., S. A. Queenborough, X. Wang, J. Zhang, Z. Yuan, **D. Xing**, F. Lin, J. Ye, and Z. Hao. 2012. Effects of local biotic neighbors and habitat heterogeneity on tree and shrub seedling survival in an old-growth temperate forest. __*Oecologia*__ 170:755–765. [doi: 10.1007/s00442-012-2348-2](https://doi.org/10.1007/s00442-012-2348-2) </li>
+
+<li> Yuan, Z., A. Gazol, X. Wang, **D. Xing**, F. Lin, X. Bai, Y. Zhao, B. Li, and Z. Hao`*`. 2012. What happens below the canopy? Direct and indirect influences of the dominant species on forest vertical layers. __*Oikos*__ 121:1145–1153. [doi: 10.1111/j.1600-0706.2011.19757.x](https://doi.org/10.1007/s00442-012-2348-2) </li>
+</ol>
+
+#### Peer-reviewed Chinese journals:
+
+<ol reversed>
+<li> Kuang, X., **D. Xing**, Z. Zhang, Y. Wang, S. Fang, Z. Yuan, J. Ye, F. Lin, X. Wang, and Z. Hao`*`. 2014. Species composition and community structure of the spruce-fir forest and larch forest plots on the northern slope of Changbai Mountains, Northeast China. __*Chinese Journal of Applied Ecology*__ 25:2149–2157. [In Chinese] </li>
+
+<li> Song, H., J. Ye, S. Shi, Z. Zhang, X. Kuang, **D. Xing**, Z. Yuan, F. Lin, C. Cai, X. Wang`*`, and Z. Hao. 2014. Woody plant species composition and community structure in residual fragments of broad-leaved Korean pine mixed forests in Changbai Mountains area. __*Chinese Journal of Applied Ecology*__ 25:1239–1249. [In Chinese] </li>
+
+<li> Zhang, Z., Z. Hao, J. Ye, F. Lin, Z. Yuan, **D. Xing**, S. Shi, and X. Wang`*`. 2013. Short-term death dynamics of trees in natural secondary poplar-birch forest in Changbai Mountains of Northeast China. __*Chinese Journal of Applied Ecology*__ 24:303–310. [In Chinese] </li>
+
+<li> Wang, L., B. Li, J. Ye, X. Bai, Z. Yuan, **D. Xing**, F. Lin, S. Shi, X. Wang, and Z. Hao`*`. 2011. Dynamics of short-term tree mortality in broad-leaved Korean pine (Pinus koraiensis) mixed forest in the Changbai Mountains. __*Biodiversity Science*__ 19:260–270. [In Chinese] </li>
+
+<li> **Xing, D.** and Z. Hao`*`. 2011. The principle of maximum entropy and its applications in ecology. __*Biodiversity Science*__ 19:295–302. [In Chinese] </li> 
+</ol>
+

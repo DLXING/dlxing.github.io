@@ -1,0 +1,27 @@
+---
+title: "Courses I have taught"
+output:
+    html_document:
+        include:
+            #before_body: header.html
+            after_body: footer.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br>
+
+### Standard University courses
+
+* East China Normal University: 
+    - Coming soon
+* University of Alberta: **RenR 580 Lab session** --- Biometrical Techniques in Agri-food, Environmental and Forest Sciences (X3: 2017--2019)
+
+### Short guest courses
+
+* East China Normal University: **A short R course** on mixed-effects models and community assembly processes. May 9--10, 2017
+* Xishuangbanna Tropical Botanical Garden, CAS: **The principle of maximum entropy** and its applications in ecology. July 1--4, 2014
+* China University of Geosciences (Beijing): **A short R course** on cleaning, processing, and analyzing census data from forest dynamics plots. October 16--17, 2010
+

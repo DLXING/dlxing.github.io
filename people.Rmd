@@ -1,0 +1,18 @@
+---
+title: ""
+output: 
+    html_document:
+        include:
+            #before_body: header.html
+            after_body: footer.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br>
+
+#### [Dingliang Xing](index.html), PI.
+
+#### [You?](mailto:xingdingliang@gmail.com)

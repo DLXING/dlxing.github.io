@@ -1,0 +1,11 @@
+---
+output: html_document
+---
+
+<hr>
+<center> 
+Copyright &copy; [Dingliang Xing](mailto:xingdingliang@gmail.com) 2019 -- <script type="text/javascript">
+  document.write(new Date().getFullYear());
+</script>
+| Created using [rmarkdown](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html)
+</center>
