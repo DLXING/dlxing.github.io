@@ -1,0 +1,22 @@
+name: "Dingliang Xing"
+output_dir: "."
+navbar:
+  title: "Dingliang Xing @ ECNU"
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "People"
+      href: people.html
+    - text: "Teaching"
+      href: teach.html
+    - text: "Publications"
+      href: publications.html
+    - text: "中文"
+      href: cn.html
+output:
+  html_document:
+    theme: readable
+    highlight: textmate
+    include:
+#      in_header: header.html
+      after_body: footer.html

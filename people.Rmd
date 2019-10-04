@@ -1,0 +1,18 @@
+---
+title: "Group members"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include=FALSE}
+# dingliang.jpg: 903 x 778 pixels --> X 25% --> 194.5 pixels height 
+# person-icon: 300*300 --> 778*.25/300 = .65
+```
+
+![**[Dingliang Xing](index.html), PI**](dingliang.jpg){#id .class width=25% height=25%}
+
+
+![**[You?](mailto:xingdingliang@gmail.com)**](person-icon.png){#id .class width=195px height=195px} 
+

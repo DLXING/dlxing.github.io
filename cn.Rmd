@@ -1,0 +1,62 @@
+---
+title: "[华东师范大学](https://www.ecnu.edu.cn/)/[生态与环境科学学院](http://www.sees.ecnu.edu.cn/)/[邢丁亮课题组](cn.html)"
+---
+
+<div class = "row">
+<div class = "col-md-6">
+
+### **邢丁亮**
+
+研究员(紫江青年学者)，博士生导师<br>
+[华东师范大学](https://www.ecnu.edu.cn/) [生态与环境科学学院](http://www.sees.ecnu.edu.cn/)
+
+地址：上海市闵行区东川路500号资环楼223<br>
+邮编：200241<br>
+邮箱：[xingdingliang(at)gmail(dot)com](mailto:xingdingliang@gmail.com)
+</div>
+
+<div class = "col-md-6">
+
+<br>
+![](dingliang.jpg){#id .class width=75% height=75%}
+
+</div>
+</div>
+
+<hr>
+
+#### 教育背景
+
+
+* 2009.09 -- 2014.07:  理学博士 (专业：生态学，导师：[郝占庆研究员](http://trlst.iae.ac.cn:8080/index))；
+		          中国科学院沈阳应用生态研究所
+
+* 2011.09 -- 2012.01:  访问学生；
+		          [加拿大]阿尔伯塔大学可再生资源系
+
+* 2005.09 -- 2009.07:  理学学士 (专业：数学与应用数学)；
+		          北京师范大学数学科学学院
+
+<hr>
+
+#### 工作经历
+
+
+* 2019.10 -- \ \ \ \ \ \ \ \  : 研究员；华东师范大学生态与环境科学学院
+
+* 2014.09 -- 2019.09:        博士后 (合作导师：[Prof. Fangliang He](http://www.ualberta.ca/~fhe/index.html))；
+                  [加拿大]阿尔伯塔大学可再生资源系
+
+<hr>
+
+#### 研究兴趣
+
+
+* <p> 主要从事**不同尺度上生物多样性格局、动态与维持机制**的研究。</p>
+* <p>研究手段主要包括**野外观测**与**理论分析**。研究工具包括`R`、`C++`、`Python`等程序语言，以及数学、统计学等相关基础方法。</p>
+* <p>研究对象以**森林生态系统**为主，但并不局限于森林生态系统。</p>
+* <p style="color:red">**如果您有意加入我们，请先阅读我们已发表的[论文](publications.html)，并发送您的研究兴趣和简历[给我](mailto:xingdingliang@gmail.com)。**</p>
+    + <p style="color:red">**本课题组刚刚成立，我们目前计划招聘一名具有较强植物分类学基础的研究助理(本科或硕士研究生学历)，以及1--2名博士后研究人员。相关招聘政策可查询[地学部](http://dxb.ecnu.edu.cn/e3/7d/c18238a189309/page.htm)与[学院](http://www.sees.ecnu.edu.cn/index.php?classid=7287)网站，也欢迎[来信咨询](mailto:xingdingliang@gmail.com)。**</p>
+    + <p style="color:red">**课题组计划每年招收硕士研究生1--2名，博士研究生1名。具体招生政策可参考[学校](https://yjszs.ecnu.edu.cn/)与[学院](http://www.sees.ecnu.edu.cn/index.php?classid=7323)招生网站。**</p>
+    + <p style="color:red">**我们非常欢迎对生态学与生物多样科学感兴趣的本科生来课题组实习或做毕业论文/设计。**</p>
+
