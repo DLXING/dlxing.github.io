@@ -6,7 +6,6 @@ title: "Publications"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
 #### Peer-reviewed English journals:
 
 See also: [My Google Scholar Profile](https://scholar.google.com/citations?user=v61F98cAAAAJ&hl=en)
