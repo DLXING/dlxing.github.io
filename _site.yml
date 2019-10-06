@@ -1,4 +1,6 @@
 name: "Dingliang Xing"
+title: "Dingliang Xing"
+description: "Homepage for Dingliang Xing's macroecology lab at school of ecological and evironmental sciences, east china normal university, Shanghai."
 output_dir: "."
 navbar:
   title: "Dingliang Xing @ ECNU"
