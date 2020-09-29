@@ -12,16 +12,20 @@ See also: [My Google Scholar Profile](https://scholar.google.com/citations?user=
 
 \* Corresponding author; lab members in **bold**.
 
-
+<!--
 #### Pre-prints:
 
 <ol reversed>
 <li>**Xing, D.\*** and F. He. 2020. Analytical models for β-diversity and the power-law scaling of β-deviation. __*bioRxiv*__ [doi: 10.1101/2020.04.19.049163](https://doi.org/10.1101/2020.04.19.049163) </li>
 </ol>
 
+-->
+
 #### Peer-reviewed papers in English journals:
 
 <ol reversed>
+<li>**Xing, D.\*** and F. He. 2020. Analytical models for β-diversity and the power-law scaling of β-deviation. __*Methods in Ecology and Evolution*__ In press [bioRxiv Preprint](https://doi.org/10.1101/2020.04.19.049163) </li>
+
 <li>**Xing, D.\***, J. A. C. Bergeron, K. A. Solarik, B. Tomm, S. E. Macdonald, J. R. Spence, and F. He. 2019. Challenges in estimating forest biomass: use of allometric equations for three boreal species. __*Canadian Journal of Forest Research*__ 49:1613–1622 [doi: 10.1139/cjfr-2019-0258](https://doi.org/10.1139/cjfr-2019-0258) [**Editor's Choice**](https://www.nrcresearchpress.com/doi/story/10.4141/news.2020.03.20.100703#.XqKi1sgzZEY) </li>
 
 <li> **Xing, D.\*** and F. He. 2019. Environmental filtering explains a U-shape latitudinal pattern in regional β-deviation for eastern North American trees. __*Ecology Letters*__ 22:284–291 [doi: 10.1111/ele.13188](https://doi.org/10.1111/ele.13188) </li>
