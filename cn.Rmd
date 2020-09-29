@@ -1,5 +1,6 @@
 ---
 title: "[华东师范大学](https://www.ecnu.edu.cn/)/[生态与环境科学学院](http://www.sees.ecnu.edu.cn/)/[邢丁亮课题组](cn.html)"
+pagetitle: "邢丁亮课题组|华东师范大学"
 ---
 
 <div class = "row">
@@ -49,6 +50,12 @@ title: "[华东师范大学](https://www.ecnu.edu.cn/)/[生态与环境科学学
 
 <hr>
 
+#### 专业服务
+
+* 为以下期刊审稿: *Biodiversity and Conservation*; *Canadian Journal of Forest Research*; *Ecological Complexity*; *Ecological Processes*; *Ecology Letters*; *Forest Ecology and Management*; *Forest Ecosystems*; *Frontiers in Forests and Global Change*; *Journal of Ecology*; *Journal of Environmental Management*; *Journal of Forestry Research*; *PLoS ONE*; *生物多样性*
+
+<hr>
+
 #### 研究兴趣
 
 
@@ -56,7 +63,7 @@ title: "[华东师范大学](https://www.ecnu.edu.cn/)/[生态与环境科学学
 * <p>研究手段主要包括**野外观测**与**理论分析**。研究工具包括`R`、`C++`、`Python`等程序语言，以及数学、统计学等相关基础方法。</p>
 * <p>研究对象以**森林生态系统**为主，但并不局限于森林生态系统。</p>
 * <p style="color:red">**如果您有意加入我们，请先阅读我们已发表的[论文](publications.html)，并发送您的研究兴趣和简历[给我](mailto:xingdingliang@gmail.com)。**</p>
-    + <p style="color:red">**本课题组刚刚成立，我们目前计划招聘一名具有较强植物分类学基础的研究助理(本科或硕士研究生学历)，以及1--2名博士后研究人员。相关招聘政策可查询[地学部](http://dxb.ecnu.edu.cn/e3/7d/c18238a189309/page.htm)与[学院](http://www.sees.ecnu.edu.cn/index.php?classid=7287)网站，也欢迎[来信咨询](mailto:xingdingliang@gmail.com)。**</p>
-    + <p style="color:red">**课题组计划每年招收硕士研究生1--2名，博士研究生1名。具体招生政策可参考[学校](https://yjszs.ecnu.edu.cn/)与[学院](http://www.sees.ecnu.edu.cn/index.php?classid=7323)招生网站。**</p>
+    + <p style="color:red">**课题组每年招收硕士研究生1--2名，博士研究生1名。具体招生政策可参考[学校](https://yjszs.ecnu.edu.cn/)与[学院](http://www.sees.ecnu.edu.cn/index.php?classid=7323)招生网站。鼓励感兴趣的同学提前[联系我们](people.html)**</p>
+    + <p style="color:red">**欢迎青年研究人员[来信商讨](mailto:xingdingliang@gmail.com)博士后与合作研究机会。**</p>
     + <p style="color:red">**我们非常欢迎对生态学与生物多样科学感兴趣的本科生来课题组实习或做毕业论文/设计。**</p>
 

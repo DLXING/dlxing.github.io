@@ -1,5 +1,6 @@
 ---
 title: "Courses I have taught"
+pagetitle: "Teaching - Xing Lab @ East China Normal University"
 ---
 
 ```{r setup, include=FALSE}
@@ -9,9 +10,12 @@ knitr::opts_chunk$set(echo = TRUE)
 #### Standard university courses
 
 * East China Normal University: 
-    - Coming soon
+    - **Landscape Ecology** (Undergraduate, 2020 --)
+    - Advances in Community Ecology and Macroecology (Graduate course led by Prof. Jian Zhang, 2020)
+    - Summer School on "Methods in Ecology" for Graduate Students (Short course led by Prof. Jian Zhang, 2020)
 
-* University of Alberta: **RenR 580 Lab session** --- Biometrical Techniques in Agri-food, Environmental and Forest Sciences (X3: 2017--2019)
+* University of Alberta: 
+    - **RenR 580 Lab session** --- Biometrical Techniques in Agri-food, Environmental and Forest Sciences (x3: 2017--2019)
 
 #### Short guest courses
 
