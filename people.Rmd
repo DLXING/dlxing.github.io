@@ -12,10 +12,14 @@ knitr::opts_chunk$set(echo = TRUE)
 # person-icon: 300*300 --> 778*.25/300 = .65
 ```
 
-![**[Dingliang Xing](index.html), PI**](dingliang2.jpg){#id .class width=25% height=25%}
+<div class="row">
+<div class="col-md-4" align="center">
+
+![**[Dingliang Xing](index.html), PI**](dingliang2.jpg){#id .class width=85% height=85%}
+</div>
+</div>
 
 <div class="row">
-<center>
 <div class="col-md-4" align="center">
 
 ![**[Ruyun Zhang](people.html), PhD student**](ruyun.jpg){#id .class width=85% height=85%}
@@ -31,9 +35,16 @@ knitr::opts_chunk$set(echo = TRUE)
 ![**[Yongchao Liu](people.html), Master student**](yongchao.jpg){#id .class width=80% height=80%}
 
 </div>
-</center>
 </div>
+
+<div class="row">
+<div class="col-md-4" align="center">
 
 
 ![**[You?](mailto:xingdingliang@gmail.com)**](person-icon.png){#id .class width=195px height=195px} 
+
+</div>
+</div>
+
+
 
