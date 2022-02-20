@@ -13,37 +13,42 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 <div class="row">
+<!-- <div class="col-md-4" align="center"> -->
+<!-- ![**[Dingliang Xing](index.html), PI**](dingliang2.jpg){#id .class width=auto height=300px} -->
+<!-- </div> -->
+
 <div class="col-md-4" align="center">
-
-![**[Dingliang Xing](index.html), PI**](dingliang2.jpg){#id .class width=85% height=85%}
-</div>
+![**[Antony Waigwa Njogu](antonynjogu48@gmail.com), Postdoc** (co-supervised with Prof. Jian Zhang) <br>Antony got his PhD in ecology from Wuhan Botanical Garden, CAS and joined the lab in Sep. 2021. His main focus is on analyzing and understanding compositional variation of plant species along the elevational gradient of Mount Kenya.](waigwa.jpg){#id .class width=auto height=300px}
 </div>
 
-<div class="row">
 <div class="col-md-4" align="center">
-
-![**[Ruyun Zhang](people.html), PhD student**](ruyun.jpg){#id .class width=85% height=85%}
-
+![**[Ruyun Zhang](zhangruyun12@gmail.com), PhD student** <br> Ruyun got her M.Sc degree in ecology from South China Botanical Garden, CAS and joined the lab in Sep. 2020. Her research is focused on the scale-dependent driving mechanisms of spatial beta diversity. Ruyun is also interested in many aspects of intraspecific trait variation.<br>](ruyun.jpg){#id .class width=auto height=300px}
 </div>
+
 <div class="col-md-4" align="center">
-
-![**[Jingyue Huang](people.html), Master student**](jingyue.jpg){#id .class width=85% height=85%}
-
+![**[Xiaoning Wang](Xiaoning_wang95@126.com), PhD student**<br>Xiaoning got her M.Sc degree in ecology from Fujian Normal University and joined the lab in Sep. 2021. Her research is focused on the global patterns and underlying drivers of temporal change in beta diversity.<br><br><br>](xiaoning.jpg){#id .class width=auto height=300px}
 </div>
+
 <div class="col-md-4" align="center">
-
-![**[Yongchao Liu](people.html), Master student**](yongchao.jpg){#id .class width=80% height=80%}
-
-</div>
+![**[Jingyue Huang](jingyue_huang@qq.com), Master student**<br>Jingyue got her B.Sc degree in ecology from Guangxi University and joined the lab in Sep. 2020. Her work is mainly about the abundance-center hypothesis. ](jingyue.jpg){#id .class width=auto height=300px}
 </div>
 
-<div class="row">
 <div class="col-md-4" align="center">
-
-
-![**[You?](mailto:xingdingliang@gmail.com)**](person-icon.png){#id .class width=195px height=195px} 
-
+![**[Yongchao Liu](yongchaoliu1@163.com), Master student**<br>Yongchao got his B.Sc degree in forestry from Shandong Agricultural University and joined the lab in Sep. 2020. He is exploring the possibilities of using remote sensing data to estimate tree diversity in natural forests.](yongchao.jpg){#id .class width=auto height=300px}
 </div>
+
+<div class="col-md-4" align="center">
+![**[Yulin Zeng](yulin_z21@163.com), Master student** (co-supervised with Dr. Qingsong Yang)<br>Yulin got her B.Sc degree in natural resource management from Northeast China Forestry University and joined the lab in Sep. 2021. She is trying to understand the causes and consequences of structures of understory fern communities in the 20-ha forest dynamics plot in Tiantong National Forest Park.](yulin.jpg){#id .class width=auto height=300px}
+</div>
+
+<div class="col-md-4" align="center">
+![**[You Li](liyou2017kk@126.com), Master student**<br>You got his B.Sc degree in forestry from Anhui Agricultural University and joined the lab in Sep. 2021. He is widely interested in community ecology and biogeography.](liyou.jpg){#id .class width=auto height=300px}
+</div>
+
+<div class="col-md-4" align="center">
+![**[You?](mailto:xingdingliang@gmail.com)**](person-icon.png){#id .class width=auto height=300px} 
+</div>
+
 </div>
 
 

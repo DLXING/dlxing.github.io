@@ -8,14 +8,13 @@ pagetitle: "邢丁亮课题组|华东师范大学"
 
 <br>
 <br>
-<br>
-<br>
 
 
 ### **邢丁亮**
 
 研究员(紫江青年学者)，博士生导师<br>
-[华东师范大学](https://www.ecnu.edu.cn/) [生态与环境科学学院](http://www.sees.ecnu.edu.cn/)
+[华东师范大学](https://www.ecnu.edu.cn/)<br> [生态与环境科学学院](http://www.sees.ecnu.edu.cn/)<br>
+[浙江天童森林生态系统国家野外科学观测研究站](http://tiantong.ecnu.edu.cn/)
 
 地址：上海市闵行区东川路500号资环楼223<br>
 邮编：200241<br>
@@ -58,7 +57,15 @@ pagetitle: "邢丁亮课题组|华东师范大学"
 
 #### 专业服务
 
-* 为以下期刊审稿: *Biodiversity and Conservation*; *Canadian Journal of Forest Research*; *Ecological Complexity*; *Ecological Processes*; *Ecology Letters*; *Forest Ecology and Management*; *Forest Ecosystems*; *Frontiers in Forests and Global Change*; *Journal of Ecology*; *Journal of Environmental Management*; *Journal of Forestry Research*; *PLoS ONE*; *生物多样性*
+* 为以下期刊审稿: *Biodiversity and Conservation*; *Canadian Journal of Forest Research*; *Communications Biology*; *Ecography*; *Ecological Complexity*; *Ecological Processes*; *Ecology Letters*; *Ecosphere*; *Forest Ecology and Management*; *Forest Ecosystems*; *Forests*; *Frontiers in Forests and Global Change*; *Global Ecology and Biogeography*; *Journal of Ecology*; *Journal of Environmental Management*; *Journal of Forestry Research*; *Methods in Ecology and Evolution*; *PeerJ*; *Plant Diversity*; *PLoS ONE*; *生物多样性*
+
+<hr>
+
+#### 科研项目
+
+* 2020--2025，华东师范大学“双百人才计划”科研启动经费，￥120万
+* 2021--2024，上海市“科技创新行动计划”自然科学基金面上项目，Beta多样性的理论模型研究，￥20万
+* 2022--2024，国家自然科学基金青年项目，Beta多样性海拔梯度格局的尺度依赖性，￥30万
 
 <hr>
 

@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -14,6 +13,7 @@
 
 <title>Teaching - Xing Lab @ East China Normal University</title>
 
+<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
@@ -23,6 +23,15 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -68,6 +77,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 
 
@@ -232,6 +242,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -308,9 +319,11 @@ $(document).ready(function () {
 <ul>
 <li>East China Normal University:
 <ul>
-<li><strong>Landscape Ecology</strong> (Undergraduate, 2020 –)</li>
-<li>Advances in Community Ecology and Macroecology (Graduate course led by Prof. Jian Zhang, 2020)</li>
-<li>Summer School on “Methods in Ecology” for Graduate Students (Short course led by Prof. Jian Zhang, 2020)</li>
+<li><strong>Landscape Ecology</strong> (Undergraduate course, offered in fall terms from 2020)</li>
+<li><strong>Advanced Statistics for Ecology</strong> (Graduate course, offered in spring terms in 2021 and 2022)</li>
+<li><strong>Biostatistics</strong> (Undergraduate course, offered to students from the biology department in spring terms from 2022)</li>
+<li>Advances in Community Ecology and Macroecology (Graduate course led by Prof. Jian Zhang, 2020–)</li>
+<li>Summer School on “Methods in Ecology” for Graduate Students (Short course led by Prof. Jian Zhang, 2020–)</li>
 </ul></li>
 <li>University of Alberta:
 <ul>
@@ -321,6 +334,7 @@ $(document).ready(function () {
 <div id="short-guest-courses" class="section level4">
 <h4>Short guest courses</h4>
 <ul>
+<li><p>Northwest Polytechnical University: invited lectures on the Landscape Ecology section in their Basic Ecology undergraduate course. (Fall term 2021)</p></li>
 <li><p>East China Normal University: <strong>A short R course</strong> on mixed-effects models and community assembly processes. May 9–10, 2017</p></li>
 <li><p>Xishuangbanna Tropical Botanical Garden, CAS: <strong>The principle of maximum entropy</strong> and its applications in ecology. July 1–4, 2014</p></li>
 <li><p>China University of Geosciences (Beijing): <strong>A short R course</strong> on cleaning, processing, and analyzing census data from forest dynamics plots. October 16–17, 2010</p></li>
@@ -356,7 +370,7 @@ Copyright © <a href="mailto:xingdingliang@gmail.com">Dingliang Xing</a> 2019 �
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
