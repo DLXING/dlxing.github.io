@@ -10,14 +10,18 @@ knitr::opts_chunk$set(echo = TRUE)
 #### Standard university courses
 
 * East China Normal University: 
-    - **Landscape Ecology** (Undergraduate, 2020 --)
-    - Advances in Community Ecology and Macroecology (Graduate course led by Prof. Jian Zhang, 2020)
-    - Summer School on "Methods in Ecology" for Graduate Students (Short course led by Prof. Jian Zhang, 2020)
+    - **Landscape Ecology** (Undergraduate course, offered in fall terms from 2020)
+    - **Advanced Statistics for Ecology** (Graduate course, offered in spring terms in 2021 and 2022)
+    - **Biostatistics** (Undergraduate course, offered to students from the biology department in spring terms from 2022)
+    - Advances in Community Ecology and Macroecology (Graduate course led by Prof. Jian Zhang, 2020--)
+    - Summer School on "Methods in Ecology" for Graduate Students (Short course led by Prof. Jian Zhang, 2020--)
 
 * University of Alberta: 
     - **RenR 580 Lab session** --- Biometrical Techniques in Agri-food, Environmental and Forest Sciences (x3: 2017--2019)
 
 #### Short guest courses
+
+* Northwest Polytechnical  University: invited lectures on the Landscape Ecology section in their Basic Ecology undergraduate course. (Fall term 2021)
 
 * East China Normal University: **A short R course** on mixed-effects models and community assembly processes. May 9--10, 2017
 
