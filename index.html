@@ -13,13 +13,22 @@
 
 <title>Xing Lab @ East China Normal University</title>
 
-<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.5.1/jquery-3.5.1.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -34,11 +43,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -51,32 +55,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 
 
@@ -87,10 +66,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -107,40 +82,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 66px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
-.section h2 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
-.section h3 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
-.section h4 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
-.section h5 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
-.section h6 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -168,7 +119,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -180,7 +131,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -190,11 +141,28 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.parent().addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -206,7 +174,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -273,7 +240,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -305,7 +272,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -318,55 +285,98 @@ $(document).ready(function () {
 <h3><strong>Dingliang Xing</strong><br></h3>
 <div id="assistant-professor" class="section level4">
 <h4><strong>Assistant Professor</strong><br></h4>
-<p><a href="http://tiantong.ecnu.edu.cn/">Tiantong Forest Ecosystem National Observation and Research Station</a><br> <a href="http://www.sees.ecnu.edu.cn/">School of Ecological and Environmental Sciences</a><br> <a href="https://www.ecnu.edu.cn/">East China Normal University</a></p>
+<p><a href="http://tiantong.ecnu.edu.cn/">Tiantong Forest Ecosystem
+National Observation and Research Station</a><br> <a
+href="http://www.sees.ecnu.edu.cn/">School of Ecological and
+Environmental Sciences</a><br> <a href="https://www.ecnu.edu.cn/">East
+China Normal University</a></p>
 <p><br></p>
 </div>
 <div id="contact-me" class="section level4">
 <h4>Contact me:</h4>
-<p>223 Zi-Huan Building<br> 500 Dongchuan Road<br> Shanghai 200241<br> China<br> Email: <a href="mailto:xingdingliang@gmail.com">xingdingliang(at)gmail(dot)com</a></p>
+<p>223 Zi-Huan Building<br> 500 Dongchuan Road<br> Shanghai 200241<br>
+China<br> Email: <a
+href="mailto:xingdingliang@gmail.com">xingdingliang(at)gmail(dot)com</a></p>
 </div>
 </div>
 <div class="col-md-7">
-<p><br> <img src="group2020.jpg" id="id" class="class" style="width:100.0%;height:100.0%" /></p>
+<p><br> <img src="group2023.jpg" id="id" class="class"
+style="width:100.0%;height:100.0%" /></p>
 </div>
 </div>
 <hr>
 <div id="education-training" class="section level4">
 <h4>Education &amp; Training</h4>
 <ul>
-<li><p>2009.09 – 2014.07: PhD in Ecology (Supervisor: <a href="http://trlst.iae.ac.cn:8080/index">Prof. Zhanqing Hao</a>); Institute of Applied Ecology, Chinese Academy of Sciences</p></li>
-<li><p>2011.09 – 2012.01: Visiting student (<a href="http://www.ualberta.ca/~fhe/index.html">Prof. Fangliang He</a>’s Lab); Department of Renewable Resources, University of Alberta</p></li>
-<li><p>2005.09 – 2009.07: B.Sc. in Mathematics; School of Mathematical Science, Beijing Normal University</p></li>
+<li><p>2009.09 – 2014.07: PhD in Ecology (Supervisor: <a
+href="http://trlst.iae.ac.cn:8080/index">Prof. Zhanqing Hao</a>);
+Institute of Applied Ecology, Chinese Academy of Sciences</p></li>
+<li><p>2011.09 – 2012.01: Visiting student (<a
+href="http://www.ualberta.ca/~fhe/index.html">Prof. Fangliang He</a>’s
+Lab); Department of Renewable Resources, University of Alberta</p></li>
+<li><p>2005.09 – 2009.07: B.Sc. in Mathematics; School of Mathematical
+Science, Beijing Normal University</p></li>
 </ul>
 <hr>
 </div>
 <div id="appointments" class="section level4">
 <h4>Appointments</h4>
 <ul>
-<li><p>2019.10 –         : Assistant Professor; <a href="http://www.sees.ecnu.edu.cn/">School of Ecological and Environmental Sciences</a>, <a href="https://www.ecnu.edu.cn/">East China Normal University</a></p></li>
-<li><p>2014.09 – 2019.09: Postdoctoral Fellow (Supervisor: <a href="http://www.ualberta.ca/~fhe/index.html">Prof. Fangliang He</a>; other collaborators: <a href="https://sites.ualberta.ca/~jspence/Spence_lab/">Prof. John Spence</a>, <a href="https://scholar.google.com/citations?user=NVTF3XcAAAAJ&amp;hl=en">Prof. Ellen Macdonald</a>, <a href="http://www.ace-lab.ca/">Prof. Scott Nielsen</a>, Dr. Colin Bergeron, <a href="https://ecologydomine.wordpress.com/">Mr. David Deane</a>); Department of Renewable Resources, University of Alberta</p></li>
+<li><p>2019.10 –         : Assistant Professor; <a
+href="http://www.sees.ecnu.edu.cn/">School of Ecological and
+Environmental Sciences</a>, <a href="https://www.ecnu.edu.cn/">East
+China Normal University</a></p></li>
+<li><p>2014.09 – 2019.09: Postdoctoral Fellow (Supervisor: <a
+href="http://www.ualberta.ca/~fhe/index.html">Prof. Fangliang He</a>;
+other collaborators: <a
+href="https://sites.ualberta.ca/~jspence/Spence_lab/">Prof. John
+Spence</a>, <a
+href="https://scholar.google.com/citations?user=NVTF3XcAAAAJ&amp;hl=en">Prof. Ellen
+Macdonald</a>, <a href="http://www.ace-lab.ca/">Prof. Scott Nielsen</a>,
+Dr. Colin Bergeron, <a
+href="https://ecologydomine.wordpress.com/">Mr. David Deane</a>);
+Department of Renewable Resources, University of Alberta</p></li>
 </ul>
 <hr>
 </div>
 <div id="professional-services" class="section level4">
 <h4>Professional services</h4>
 <ul>
-<li>Manuscript review: <em>Biodiversity and Conservation</em>; <em>Canadian Journal of Forest Research</em>; <em>Ecography</em>; <em>Ecological Complexity</em>; <em>Ecological Processes</em>; <em>Ecology Letters</em>; <em>Forest Ecology and Management</em>; <em>Forest Ecosystems</em>; <em>Frontiers in Forests and Global Change</em>; <em>Global Ecology and Biogeography</em>; <em>Journal of Ecology</em>; <em>Journal of Environmental Management</em>; <em>Journal of Forestry Research</em>; <em>PLoS ONE</em>; <em>生物多样性</em></li>
+<li>Manuscript review: <em>Biodiversity and Conservation</em>;
+<em>Canadian Journal of Forest Research</em>; <em>Ecography</em>;
+<em>Ecological Complexity</em>; <em>Ecological Processes</em>;
+<em>Ecology Letters</em>; <em>Forest Ecology and Management</em>;
+<em>Forest Ecosystems</em>; <em>Frontiers in Forests and Global
+Change</em>; <em>Global Ecology and Biogeography</em>; <em>Journal of
+Ecology</em>; <em>Journal of Environmental Management</em>; <em>Journal
+of Forestry Research</em>; <em>PLoS ONE</em>; <em>生物多样性</em></li>
 </ul>
 <hr>
 </div>
 <div id="research-interests" class="section level4">
 <h4>Research interests</h4>
 <ul>
-<li><p>Our research mainly focuses on the <strong>diversity</strong> and <strong>dynamic</strong> of ecosystems (mainly forests) at <strong>multiple scales</strong>, with a special emphasis on understanding various macroecological patterns, including beta diversity and many others.</p></li>
-<li><p>We use both <strong>empirical</strong> and <strong>theoretical</strong> approaches to address our research questions.</p>
+<li><p>Our research mainly focuses on the <strong>diversity</strong> and
+<strong>dynamic</strong> of ecosystems (mainly forests) at
+<strong>multiple scales</strong>, with a special emphasis on
+understanding various macroecological patterns, including beta diversity
+and many others.</p></li>
+<li><p>We use both <strong>empirical</strong> and
+<strong>theoretical</strong> approaches to address our research
+questions.</p>
 <ul>
-<li><p>The empirical data we collect and analyze are mainly from forest inventories.</p></li>
-<li><p>Our current theoretical exploration relies heavily on probability theory.</p></li>
-<li><p>We use <code>R</code>, <code>C++</code>, and <code>Python</code> to analyze data and implement our theoretical models.</p></li>
+<li><p>The empirical data we collect and analyze are mainly from forest
+inventories.</p></li>
+<li><p>Our current theoretical exploration relies heavily on probability
+theory.</p></li>
+<li><p>We use <code>R</code>, <code>C++</code>, and <code>Python</code>
+to analyze data and implement our theoretical models.</p></li>
 </ul></li>
 <li><p style="color:red">
-<p><strong>Prospective students and postdocs are encouraged to read <a href="publications.html">my papers</a> and <a href="mailto:xingdingliang@gmail.com">contact me</a> before applying officially.</strong></p>
+<p><strong>Prospective students and postdocs are encouraged to read <a
+href="publications.html">my papers</a> and <a
+href="mailto:xingdingliang@gmail.com">contact me</a> before applying
+officially.</strong></p>
 </p></li>
 </ul>
 </div>
@@ -418,7 +428,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
