@@ -17,9 +17,9 @@ knitr::opts_chunk$set(echo = TRUE)
 <!-- ![**[Dingliang Xing](index.html), PI**](dingliang2.jpg){#id .class width=auto height=300px} -->
 <!-- </div> -->
 
-<div class="col-md-4" align="center">
-![**[Antony Waigwa Njogu](mailto:antonynjogu48@gmail.com), Postdoc** (co-supervised with Prof. Jian Zhang) <br>Antony got his PhD in ecology from Wuhan Botanical Garden, CAS and joined the lab in Sep. 2021. His main focus is on analyzing and understanding compositional variation of plant species along the elevational gradient of Mount Kenya.](waigwa.jpg){#id .class width=auto height=300px}
-</div>
+<!-- <div class="col-md-4" align="center"> -->
+<!-- ![**[Antony Waigwa Njogu](mailto:antonynjogu48@gmail.com), Postdoc** (co-supervised with Prof. Jian Zhang) <br>Antony got his PhD in ecology from Wuhan Botanical Garden, CAS and joined the lab in Sep. 2021. His main focus is on analyzing and understanding compositional variation of plant species along the elevational gradient of Mount Kenya.](waigwa.jpg){#id .class width=auto height=300px} -->
+<!-- </div> -->
 
 <div class="col-md-4" align="center">
 ![**[Ruyun Zhang](mailto:zhangruyun12@gmail.com), PhD student** <br> Ruyun got her M.Sc degree in ecology from South China Botanical Garden, CAS and joined the lab in Sep. 2020. Her research is focused on the scale-dependent driving mechanisms of spatial beta diversity. Ruyun is also interested in many aspects of intraspecific trait variation.<br>](ruyun.jpg){#id .class width=auto height=300px}
@@ -30,7 +30,11 @@ knitr::opts_chunk$set(echo = TRUE)
 </div>
 
 <div class="col-md-4" align="center">
-![**[Jingyue Huang](mailto:jingyue_huang@qq.com), Master student**<br>Jingyue got her B.Sc degree in ecology from Guangxi University and joined the lab in Sep. 2020. Her work is mainly about the abundance-center hypothesis. ](jingyue.jpg){#id .class width=auto height=300px}
+![**[Wenhao Zhao](mailto:wenhao_zhao126@126.com), PhD student**<br>Wenhao got his M.Sc degree in ecology from Fujian Normal University and joined the lab in Sep. 2022. His research is focused on the maintenance of rare species.<br><br><br><br>](wenhao.jpg){#id .class width=auto height=300px}
+</div>
+
+<div class="col-md-4" align="center">
+![**[Jingyue Huang](mailto:jingyue_huang@qq.com), PhD student**<br>Jingyue got her B.Sc degree in ecology from Guangxi University and joined the lab in Sep. 2020. Her work is mainly about the abundance-center hypothesis. ](jingyue.jpg){#id .class width=auto height=300px}
 </div>
 
 <div class="col-md-4" align="center">
@@ -46,8 +50,12 @@ knitr::opts_chunk$set(echo = TRUE)
 </div>
 
 <div class="col-md-4" align="center">
-![**[You?](mailto:xingdingliang@gmail.com)**](person-icon.png){#id .class width=auto height=300px} 
+![**[Haoxiang Lu](mailto:hxluuu@163.com), Master student**<br>Haoxiang got his B.Sc degree in Ecology from Yangzhou University and joined the lab in Sep. 2022. He is working on understanding the inter- and intraspecific variation in foliar spectral reflectances.](haoxiang.jpg){#id .class width=auto height=300px}
 </div>
+
+<!-- <div class="col-md-4" align="center"> -->
+<!-- ![**[You?](mailto:xingdingliang@gmail.com)**](person-icon.png){#id .class width=auto height=300px}  -->
+<!-- </div> -->
 
 </div>
 

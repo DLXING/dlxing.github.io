@@ -8,12 +8,9 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ![](journalWall.png){#id .class width=100% height=100%}
-
 <br>
 
 \*Corresponding author; lab members in **bold**. See also: [Google Scholar](https://scholar.google.com/citations?user=v61F98cAAAAJ&hl=en)
-
-<br>
 <!--
 #### Pre-prints:
 
@@ -25,9 +22,20 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Peer-reviewed papers in English journals:
 
-<ol reversed start=19>
+<ol reversed start=22>
 
-<li>He Y., K. Srisombut, **D. Xing**, N. G. Swenson, M. Asefa, M. Cao, X. Song, H. Wen, and J. Yang\*. 2022. Ontogenetic trait variation and metacommunity effects influence species relative abundances during tree community assembly. *Plant Diversity* xx:xxx–xxx [doi: 10.1016/j.pld.2021.09.002](https://doi.org/10.1016/j.pld.2021.09.002)  </li>
+<li>
+Gao, Z., Y. Pan, P. M. Van Bodegom, E. Cieraad, **D. Xing**, Y. Yang, T. Xia, X. Luo, K. Song\*, L. Da, and D. Malkinson. 2023. Beta diversity of urban spontaneous plants and its drivers in nine major cities of Yunnan province, China. *Landscape and Urban Planning* 234:104741 [doi: 10.1016/j.landurbplan.2023.104741](https://doi.org/10.1016/j.landurbplan.2023.104741)
+</li>
+
+<li>
+Zhang, H.-Y.\*, X.-T. Lü, C.-Z. Wei, J. R. Powell, X.-B. Wang, **D. Xing**, Z.-W. Xu, H.-L. Li, and X.-G. Han. 2023. β-diversity in temperate grasslands is driven by stronger environmental filtering of plant species with large genomes. *Ecology* 104:e3941 [doi: 10.1002/ecy.3941](https://doi.org/10.1002/ecy.3941)
+</li>
+
+<li>**Xing, D.\***, J. Zhang, and F. He. 2023. Comment on “Interspecific competition limits bird species’ ranges in tropical mountains”. *Science* 379:eade2109 [doi: 10.1126/science.ade2109](https://doi.org/10.1126/science.ade2109)
+</li>
+
+<li>He Y., K. Srisombut, **D. Xing**, N. G. Swenson, M. Asefa, M. Cao, X. Song, H. Wen, and J. Yang\*. 2022. Ontogenetic trait variation and metacommunity effects influence species relative abundances during tree community assembly. *Plant Diversity* 44:360-368 [doi: 10.1016/j.pld.2021.09.002](https://doi.org/10.1016/j.pld.2021.09.002)  </li>
 
 <li>Deane D. C.\*, **D. Xing**, C. Hui, M. McGeoch, and F. He. 2022. A null model for quantifying the geometric effect of habitat subdivision on species diversity. *Global Ecology and Biogeography* 31:440–453 [doi: 10.1111/geb.13437](https://doi.org/10.1111/geb.13437)  </li>
 

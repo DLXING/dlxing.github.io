@@ -13,13 +13,22 @@
 
 <title>邢丁亮课题组|华东师范大学</title>
 
-<script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.5.1/jquery-3.5.1.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -34,11 +43,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -51,32 +55,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 
 
@@ -87,10 +66,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -107,40 +82,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 66px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
-.section h2 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
-.section h3 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
-.section h4 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
-.section h5 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
-.section h6 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -168,7 +119,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -180,7 +131,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -190,11 +141,28 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.parent().addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -206,7 +174,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -273,7 +240,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -305,11 +272,14 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
-<h1 class="title toc-ignore"><a href="https://www.ecnu.edu.cn/">华东师范大学</a>/<a href="http://www.sees.ecnu.edu.cn/">生态与环境科学学院</a>/<a href="cn.html">邢丁亮课题组</a></h1>
+<h1 class="title toc-ignore"><a
+href="https://www.ecnu.edu.cn/">华东师范大学</a>/<a
+href="http://www.sees.ecnu.edu.cn/">生态与环境科学学院</a>/<a
+href="cn.html">邢丁亮课题组</a></h1>
 
 </div>
 
@@ -319,36 +289,58 @@ $(document).ready(function () {
 <p><br> <br></p>
 <div id="邢丁亮" class="section level3">
 <h3><strong>邢丁亮</strong></h3>
-<p>研究员(紫江青年学者)，博士生导师<br> <a href="https://www.ecnu.edu.cn/">华东师范大学</a><br> <a href="http://www.sees.ecnu.edu.cn/">生态与环境科学学院</a><br> <a href="http://tiantong.ecnu.edu.cn/">浙江天童森林生态系统国家野外科学观测研究站</a></p>
-<p>地址：上海市闵行区东川路500号资环楼223<br> 邮编：200241<br> 邮箱：<a href="mailto:xingdingliang@gmail.com">xingdingliang(at)gmail(dot)com</a></p>
+<p>研究员(紫江青年学者)，博士生导师<br> <a
+href="https://www.ecnu.edu.cn/">华东师范大学</a><br> <a
+href="http://www.sees.ecnu.edu.cn/">生态与环境科学学院</a><br> <a
+href="http://tiantong.ecnu.edu.cn/">浙江天童森林生态系统国家野外科学观测研究站</a></p>
+<p>地址：上海市闵行区东川路500号资环楼223<br> 邮编：200241<br> 邮箱：<a
+href="mailto:xingdingliang@gmail.com">xingdingliang(at)gmail(dot)com</a></p>
 </div>
 </div>
 <div class="col-md-7">
-<p><br> <img src="group2020.jpg" id="id" class="class" style="width:100.0%;height:100.0%" /></p>
+<p><br> <img src="group2023.jpg" id="id" class="class"
+style="width:100.0%;height:100.0%" /></p>
 </div>
 </div>
 <hr>
 <div id="教育背景" class="section level4">
 <h4>教育背景</h4>
 <ul>
-<li><p>2009.09 – 2014.07: 理学博士 (专业：生态学，导师：<a href="http://trlst.iae.ac.cn:8080/index">郝占庆研究员</a>)； 中国科学院沈阳应用生态研究所</p></li>
-<li><p>2011.09 – 2012.01: 访问学生； [加拿大]阿尔伯塔大学可再生资源系</p></li>
-<li><p>2005.09 – 2009.07: 理学学士 (专业：数学与应用数学)； 北京师范大学数学科学学院</p></li>
+<li><p>2009.09 – 2014.07: 理学博士 (专业：生态学，导师：<a
+href="http://trlst.iae.ac.cn:8080/index">郝占庆研究员</a>)；
+中国科学院沈阳应用生态研究所</p></li>
+<li><p>2011.09 – 2012.01: 访问学生；
+[加拿大]阿尔伯塔大学可再生资源系</p></li>
+<li><p>2005.09 – 2009.07: 理学学士 (专业：数学与应用数学)；
+北京师范大学数学科学学院</p></li>
 </ul>
 <hr>
 </div>
 <div id="工作经历" class="section level4">
 <h4>工作经历</h4>
 <ul>
-<li><p>2019.10 –          : 研究员；华东师范大学生态与环境科学学院</p></li>
-<li><p>2014.09 – 2019.09: 博士后 (合作导师：<a href="http://www.ualberta.ca/~fhe/index.html">Prof. Fangliang He</a>)； [加拿大]阿尔伯塔大学可再生资源系</p></li>
+<li><p>2019.10 –          :
+研究员；华东师范大学生态与环境科学学院</p></li>
+<li><p>2014.09 – 2019.09: 博士后 (合作导师：<a
+href="http://www.ualberta.ca/~fhe/index.html">Prof. Fangliang He</a>)；
+[加拿大]阿尔伯塔大学可再生资源系</p></li>
 </ul>
 <hr>
 </div>
 <div id="专业服务" class="section level4">
 <h4>专业服务</h4>
 <ul>
-<li>为以下期刊审稿: <em>Biodiversity and Conservation</em>; <em>Canadian Journal of Forest Research</em>; <em>Communications Biology</em>; <em>Ecography</em>; <em>Ecological Complexity</em>; <em>Ecological Processes</em>; <em>Ecology Letters</em>; <em>Ecosphere</em>; <em>Forest Ecology and Management</em>; <em>Forest Ecosystems</em>; <em>Forests</em>; <em>Frontiers in Forests and Global Change</em>; <em>Global Ecology and Biogeography</em>; <em>Journal of Ecology</em>; <em>Journal of Environmental Management</em>; <em>Journal of Forestry Research</em>; <em>Methods in Ecology and Evolution</em>; <em>PeerJ</em>; <em>Plant Diversity</em>; <em>PLoS ONE</em>; <em>生物多样性</em></li>
+<li>为以下期刊审稿: <em>Biodiversity and Conservation</em>; <em>Canadian
+Journal of Forest Research</em>; <em>Communications Biology</em>;
+<em>Ecography</em>; <em>Ecological Complexity</em>; <em>Ecological
+Processes</em>; <em>Ecology Letters</em>; <em>Ecosphere</em>; <em>Forest
+Ecology and Management</em>; <em>Forest Ecosystems</em>;
+<em>Forests</em>; <em>Frontiers in Forests and Global Change</em>;
+<em>Global Ecology and Biogeography</em>; <em>Journal of Ecology</em>;
+<em>Journal of Environmental Management</em>; <em>Journal of Forestry
+Research</em>; <em>Methods in Ecology and Evolution</em>;
+<em>PeerJ</em>; <em>Plant Diversity</em>; <em>PLoS ONE</em>;
+<em>生物多样性</em></li>
 </ul>
 <hr>
 </div>
@@ -356,8 +348,8 @@ $(document).ready(function () {
 <h4>科研项目</h4>
 <ul>
 <li>2020–2025，华东师范大学“双百人才计划”科研启动经费，￥120万</li>
-<li>2021–2024，上海市“科技创新行动计划”自然科学基金面上项目，Beta多样性的理论模型研究，￥20万</li>
-<li>2022–2024，国家自然科学基金青年项目，Beta多样性海拔梯度格局的尺度依赖性，￥30万</li>
+<li>2021–2024，上海市“科技创新行动计划”自然科学基金面上项目，￥20万</li>
+<li>2022–2024，国家自然科学基金青年项目，￥30万</li>
 </ul>
 <hr>
 </div>
@@ -365,7 +357,7 @@ $(document).ready(function () {
 <h4>研究兴趣</h4>
 <ul>
 <li><p>
-主要从事<strong>不同尺度上生物多样性格局、动态与维持机制</strong>的研究。
+主要从事<strong>群落生态学</strong>和<strong>数量生态学</strong>研究，关注<strong>不同尺度上生物多样性的格局、动态与维持机制</strong>。
 </p></li>
 <li><p>
 研究手段主要包括<strong>野外观测</strong>与<strong>理论分析</strong>。研究工具包括<code>R</code>、<code>C++</code>、<code>Python</code>等程序语言，以及数学、统计学等相关基础方法。
@@ -374,14 +366,20 @@ $(document).ready(function () {
 研究对象以<strong>森林生态系统</strong>为主，但并不局限于森林生态系统。
 </p></li>
 <li><p style="color:red">
-<strong>如果您有意加入我们，请先阅读我们已发表的<a href="publications.html">论文</a>，并发送您的研究兴趣和简历<a href="mailto:xingdingliang@gmail.com">给我</a>。</strong>
+<strong>如果您有意加入我们，请先阅读我们已发表的<a
+href="publications.html">论文</a>，并发送您的研究兴趣和简历<a
+href="mailto:xingdingliang@gmail.com">给我</a>。</strong>
 </p>
 <ul>
 <li><p style="color:red">
-<strong>课题组每年招收硕士研究生1–2名，博士研究生1名。具体招生政策可参考<a href="https://yjszs.ecnu.edu.cn/">学校</a>与<a href="http://www.sees.ecnu.edu.cn/index.php?classid=7323">学院</a>招生网站。鼓励感兴趣的同学提前<a href="people.html">联系我们</a>。</strong>
+<strong>课题组每年招收硕士研究生1–2名，博士研究生1名。具体招生政策可参考<a
+href="https://yjszs.ecnu.edu.cn/">学校</a>与<a
+href="http://www.sees.ecnu.edu.cn/index.php?classid=7323">学院</a>招生网站。鼓励感兴趣的同学提前<a
+href="people.html">联系我们</a>。</strong>
 </p></li>
 <li><p style="color:red">
-<strong>欢迎青年研究人员<a href="mailto:xingdingliang@gmail.com">来信商讨</a>博士后与合作研究机会。</strong>
+<strong>欢迎青年研究人员<a
+href="mailto:xingdingliang@gmail.com">来信商讨</a>博士后与合作研究机会。</strong>
 </p></li>
 <li><p style="color:red">
 <strong>我们非常欢迎对生态学与生物多样科学感兴趣的本科生来课题组实习或做毕业论文/设计。</strong>
@@ -437,7 +435,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
