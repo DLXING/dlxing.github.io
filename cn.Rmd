@@ -57,7 +57,7 @@ pagetitle: "邢丁亮课题组|华东师范大学"
 
 #### 专业服务
 
-* 为以下期刊审稿: *Biodiversity and Conservation*; *Canadian Journal of Forest Research*; *Communications Biology*; *Ecography*; *Ecological Complexity*; *Ecological Processes*; *Ecology Letters*; *Ecosphere*; *Forest Ecology and Management*; *Forest Ecosystems*; *Forests*; *Frontiers in Forests and Global Change*; *Global Ecology and Biogeography*; *Journal of Ecology*; *Journal of Environmental Management*; *Journal of Forestry Research*; *Methods in Ecology and Evolution*; *PeerJ*; *Plant Diversity*; *PLoS ONE*; *生物多样性*
+* 为以下期刊审稿: *Biodiversity and Conservation*; *Canadian Journal of Forest Research*; *Communications Biology*; *Ecography*; *Ecological Complexity*; *Ecological Processes*; *Ecology Letters*; *Ecosphere*; *Forest Ecology and Management*; *Forest Ecosystems*; *Forests*; *Frontiers in Forests and Global Change*; *Global Ecology and Biogeography*; *Journal of Ecology*; *Journal of Environmental Management*; *Journal of Forestry Research*; *Methods in Ecology and Evolution*; *PeerJ*; *Plant Diversity*; *PLoS ONE*; *生物多样性*; *植物生态学报*
 
 <hr>
 
